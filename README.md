@@ -22,3 +22,12 @@ Tools that are commonly used
 
 <img src="BlurBackStage/thumbnail.png" alt="Drawing" style="width: 300px;"/>
 
+
+## HelloCpp
+A demo to show how to use C/C++ file in Xcode
+
+<img src="HelloCpp/hellocppdemo.gif" alt="Drawing" style="width: 300px;"/>
+
+* Usage
+	1.	Creat C++ files named Greeting
+	2.	Change ViewController.m to ViewController.mm to tell Xcode that ViewController wants to mix Objective-c with C++
