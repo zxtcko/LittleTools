@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE4943F300B2B20BF9C4591459828E118653B1BA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE4943F300B2B20BF9C4591459828E118653B1BA" : 0,
+    "624181836F8950E3047C9FD07703E231C58849A2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C46A6CC5-420B-41C2-8F21-3121EF2FEE26",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE4943F300B2B20BF9C4591459828E118653B1BA" : "LittleTools\/",
+    "624181836F8950E3047C9FD07703E231C58849A2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloCpp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloCpp\/HelloCpp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zxtcko\/AngularLearning.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "624181836F8950E3047C9FD07703E231C58849A2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zxtcko\/LittleTools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE4943F300B2B20BF9C4591459828E118653B1BA"
+    }
+  ]
+}

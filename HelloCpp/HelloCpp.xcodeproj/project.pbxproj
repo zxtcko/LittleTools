@@ -16,6 +16,7 @@
 		01A010041D2219E3007DC7AF /* HelloCppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A010031D2219E3007DC7AF /* HelloCppTests.m */; };
 		01A0100F1D2219E3007DC7AF /* HelloCppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A0100E1D2219E3007DC7AF /* HelloCppUITests.m */; };
 		01A0101E1D221B06007DC7AF /* Greeting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0101C1D221B06007DC7AF /* Greeting.cpp */; };
+		6F8445BF1D2E3AB100D67587 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8445BE1D2E3AB100D67587 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		01A010101D2219E3007DC7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A0101C1D221B06007DC7AF /* Greeting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Greeting.cpp; sourceTree = "<group>"; };
 		01A0101D1D221B06007DC7AF /* Greeting.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Greeting.hpp; sourceTree = "<group>"; };
+		6F8445BE1D2E3AB100D67587 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../GeneralTools/Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		01A00FDD1D2219E2007DC7AF = {
 			isa = PBXGroup;
 			children = (
+				6F8445BE1D2E3AB100D67587 /* Utils.swift */,
 				01A0101C1D221B06007DC7AF /* Greeting.cpp */,
 				01A0101D1D221B06007DC7AF /* Greeting.hpp */,
 				01A00FE81D2219E3007DC7AF /* HelloCpp */,
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8445BF1D2E3AB100D67587 /* Utils.swift in Sources */,
 				01A00FF11D2219E3007DC7AF /* ViewController.mm in Sources */,
 				01A00FEE1D2219E3007DC7AF /* AppDelegate.m in Sources */,
 				01A0101E1D221B06007DC7AF /* Greeting.cpp in Sources */,
@@ -419,10 +423,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HelloCpp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = happy9.HelloCpp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -430,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HelloCpp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = happy9.HelloCpp;
@@ -502,6 +509,7 @@
 				01A010151D2219E3007DC7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01A010161D2219E3007DC7AF /* Build configuration list for PBXNativeTarget "HelloCppTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +518,7 @@
 				01A010181D2219E3007DC7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01A010191D2219E3007DC7AF /* Build configuration list for PBXNativeTarget "HelloCppUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +527,7 @@
 				01A0101B1D2219E3007DC7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -31,3 +31,4 @@ A demo to show how to use C/C++ file in Xcode
 * Usage
 	1.	Creat C++ files named Greeting
 	2.	Change ViewController.m to ViewController.mm to tell Xcode that ViewController wants to mix Objective-c with C++
+	
