@@ -66,6 +66,8 @@
 //解析Base64
 + (NSString*)decodeBase64:(NSString*)input;
 
+//检查是否联网
++ (BOOL)isNetWorkReachable;
 
 //获取localIP
 +(NSString *)getLocalIpAddress;
