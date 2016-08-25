@@ -100,6 +100,11 @@
 //验证身份证号码合法性
 + (BOOL)verifyIDCardNumber:(NSString *)value;
 
+//存储数据到userdefault中
++ (void)setValueForUserDefaultWithKey:(NSString *)key andValue:(NSString *)value;
+
 //从userdefault中获取特定值
 + (NSString *)getValueFromUserDefaultWithKey:(NSString *)key;
+
+
 @end

@@ -654,6 +654,11 @@
     return TRUE;
 }
 
++ (void)setValueForUserDefaultWithKey:(NSString *)key andValue:(NSString *)value{
+    [[NSUserDefaults standardUserDefaults] setObject:value forKey:key];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 //从userdefault中获取特定值
 + (NSString *)getValueFromUserDefaultWithKey:(NSString *)key
 {
