@@ -106,6 +106,13 @@
 //从userdefault中获取特定值
 + (NSString *)getValueFromUserDefaultWithKey:(NSString *)key;
 
+
+/**
+ *  重置所有userdefault的值
+ */
++ (void)resetUserDefault;
+
+
 /**
  *  获取文件沙盒路径
  *

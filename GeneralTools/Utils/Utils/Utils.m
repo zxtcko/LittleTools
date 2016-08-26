@@ -672,6 +672,16 @@
     return resultString;
 }
 
+//重置所有userdefault的值
++ (void)resetUserDefault {
+    NSUserDefaults * defs = [NSUserDefaults standardUserDefaults];
+    NSDictionary * dict = [defs dictionaryRepresentation];
+    for (id key in dict) {
+        [defs removeObjectForKey:key];
+    }
+    [defs synchronize];
+}
+
 /**
  *  获取文件沙盒路径
  *
