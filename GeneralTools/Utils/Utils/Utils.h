@@ -106,5 +106,10 @@
 //从userdefault中获取特定值
 + (NSString *)getValueFromUserDefaultWithKey:(NSString *)key;
 
-
+/**
+ *  获取文件沙盒路径
+ *
+ *  @return 路径
+ */
++ (NSString *)getDocumentDirectory;
 @end
