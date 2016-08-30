@@ -688,11 +688,7 @@
  *  @return 路径
  */
 + (NSString *)getDocumentDirectory {
-    NSString * path = NSHomeDirectory();
-    NSLog(@"NSHomeDirectory:%@",path);
     NSString * userName = NSUserName();
-    NSString * rootPath = NSHomeDirectoryForUser(userName);
-    NSLog(@"NSHomeDirectoryForUser:%@",rootPath);
     NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString * documentsDirectory = [paths objectAtIndex:0];
     return documentsDirectory;
