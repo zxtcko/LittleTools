@@ -112,6 +112,12 @@
  */
 + (void)resetUserDefault;
 
+/**
+ *  重置特定的userdefault值
+ *
+ *  @param key userdefault的key
+ */
++ (void)resetSpecficUserDefaultWithKey:(NSString *)key;
 
 /**
  *  获取文件沙盒路径

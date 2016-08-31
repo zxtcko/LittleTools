@@ -683,12 +683,21 @@
 }
 
 /**
+ *  重置特定的userdefault值
+ *
+ *  @param key userdefault的key
+ */
++ (void)resetSpecficUserDefaultWithKey:(NSString *)key{
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:key];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+/**
  *  获取文件沙盒路径
  *
  *  @return 路径
  */
 + (NSString *)getDocumentDirectory {
-    NSString * userName = NSUserName();
     NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString * documentsDirectory = [paths objectAtIndex:0];
     return documentsDirectory;
