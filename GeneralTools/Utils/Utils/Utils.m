@@ -515,6 +515,25 @@
     return timeSp;
 }
 
+/**
+ *  通过时间戳转换成特定形式的日期string
+ *
+ *  @param timeStamp 时间戳
+ *  @param format    格式@“YYYY-MM-dd HH:mm:ss”
+ *
+ *  @return string类型date
+ */
++ (NSString *)timeStamptoString:(NSString *)timeStamp withFormat:(NSString *)format{
+    NSDate *dateFromArray = [NSDate dateWithTimeIntervalSince1970:[timeStamp intValue]];
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:format];
+    
+    NSString *dateString = [formatter stringFromDate:dateFromArray];
+    
+    return dateString;
+}
+
 
 + (NSString *)replaceChinese:(NSString *)ChineseStr
 {

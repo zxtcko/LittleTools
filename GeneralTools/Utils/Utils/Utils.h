@@ -91,6 +91,9 @@
 //获取时间戳
 + (NSString *)UNIX_TIMESTAMP;
 
+//通过时间戳转换成特定形式的日期string
++ (NSString *)timeStamptoString:(NSString *)timeStamp withFormat:(NSString *)format;
+
 //汉字转Unicode编码
 +(NSString *) utf8ToUnicode:(NSString *)string;
 
