@@ -14,6 +14,7 @@
 		6F09D6751D47433F00DA1E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F09D6731D47433F00DA1E34 /* LaunchScreen.storyboard */; };
 		6F09D6801D47439200DA1E34 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F09D67D1D47439200DA1E34 /* Utils.m */; };
 		6F09D6811D47439200DA1E34 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09D67F1D47439200DA1E34 /* Utils.swift */; };
+		6F1654761DD5AC76002EDC62 /* NSString+RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1654751DD5AC76002EDC62 /* NSString+RegexKitLite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6F09D67D1D47439200DA1E34 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		6F09D67E1D47439200DA1E34 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		6F09D67F1D47439200DA1E34 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6F1654741DD5AC76002EDC62 /* NSString+RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexKitLite.h"; sourceTree = "<group>"; };
+		6F1654751DD5AC76002EDC62 /* NSString+RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexKitLite.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				6F09D6681D47433F00DA1E34 /* AppDelegate.h */,
 				6F09D6691D47433F00DA1E34 /* AppDelegate.m */,
+				6F1654741DD5AC76002EDC62 /* NSString+RegexKitLite.h */,
+				6F1654751DD5AC76002EDC62 /* NSString+RegexKitLite.m */,
 				6F09D67E1D47439200DA1E34 /* Utils.h */,
 				6F09D67D1D47439200DA1E34 /* Utils.m */,
 				6F09D67F1D47439200DA1E34 /* Utils.swift */,
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F09D6801D47439200DA1E34 /* Utils.m in Sources */,
+				6F1654761DD5AC76002EDC62 /* NSString+RegexKitLite.m in Sources */,
 				6F09D66A1D47433F00DA1E34 /* AppDelegate.m in Sources */,
 				6F09D6671D47433F00DA1E34 /* main.m in Sources */,
 				6F09D6811D47439200DA1E34 /* Utils.swift in Sources */,
@@ -311,6 +317,7 @@
 				6F09D67B1D47433F00DA1E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
